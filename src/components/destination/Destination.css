@@ -16,11 +16,13 @@
     margin-right: 19px;
     min-height: 168px;
     margin-bottom: 18px;
+    border-radius: 5px;
 }
 
 .destination__icon {
     color: red;
     margin-right: 4px;
+    font-size: 10px;
 }
 
 .destination__country {
