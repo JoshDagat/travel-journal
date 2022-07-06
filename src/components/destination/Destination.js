@@ -1,13 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
+import './Destination.css'
 
 export default function Destination(props) {
     console.log(props.imageUrl)
     return (
         <article className='destination'>
-            <a href={props.imageUrl}>test</a>
-            <img src={props.imageUrl``} />
+            <img className='destination__image' src={props.imageUrl} alt={props.title} />
             <div className='destination__details'>
                 <FontAwesomeIcon icon={solid('location-dot')} />
                 <span className='destination__country'>{props.location}</span>
