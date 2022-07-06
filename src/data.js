@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         title: "Changi Airport",
         location: "Singapore",
@@ -6,8 +6,6 @@ export default [
         startDate: "12 Jan, 2019",
         endDate: "13 Jan, 2019",
         description: "Singapore Changi Airport, commonly known as Changi Airport, is a major civilian international airport that serves Singapore, and is one of the largest transportation hubs in Asia.",
-        // imageUrl: 'https://ibb.co/vH3qX8L'
-        // imageUrl: "https://postimg.cc/Mvxz1bcx"
         imageUrl: "./images/changi-airport.jpg"
     },
     {
@@ -16,7 +14,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/LBqhAxD5bFHymLmj8",
         startDate: "14 Jan, 2019",
         endDate: "15 April, 2019",
-        description: "Pattaya is a city on Thailand’s eastern Gulf coast known for its beaches. A quiet fishing village as recently as the 1960s, it’s now lined with resort hotels, high-rise condos, shopping malls, cabaret bars and 24-hour clubs. Nearby, hillside Wat Phra Yai Temple features an 18m-tall golden Buddha. The area also features several designer golf courses, some with views of Pattaya Bay.",
+        description: "Pattaya is a city on Thailand’s eastern Gulf coast known for its beaches. Nearby, hillside Wat Phra Yai Temple features an 18m-tall golden Buddha. The area also features several designer golf courses, some with views of Pattaya Bay.",
         imageUrl: "./images/pattaya.jpg"
     },
     {
@@ -29,3 +27,5 @@ export default [
         imageUrl: "./images/sattahip.jpg"
     }
 ]
+
+export default data;
