@@ -1,0 +1,61 @@
+.destination {
+    display: flex;
+    margin-bottom: 18px;
+    max-width: 86%;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.destination__details {
+    padding-top: 1rem;
+}
+
+.destination__image {
+    width: clamp(100px, 2vw, 125px);
+    min-width: 125px;
+    object-fit: cover;
+    margin-right: 19px;
+    min-height: 168px;
+    margin-bottom: 18px;
+}
+
+.destination__icon {
+    color: red;
+    margin-right: 4px;
+}
+
+.destination__country {
+    font-size: 10px;
+    line-height: 12px;
+    margin-right: 12px;
+    letter-spacing: 0.17em;
+}
+
+.destination__g-maps {
+    font-size: 10px;
+    line-height: 12px;
+    color: #918E98;
+    text-decoration: underline;
+    margin-bottom: 4px;
+}
+
+.destination__name {
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+.destination__travel-date {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+    color: #2B283A;
+    margin-bottom: 9px;
+}
+
+.destination__description {
+    font-size: 10px;
+    line-height: 150%;
+    color: #2B283A;
+}
