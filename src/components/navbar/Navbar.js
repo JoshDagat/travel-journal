@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
+import './Navbar.css';
 
 export default function Navbar() {
     return (
         <nav className='navbar'>
-            <img src='../assets/images/Globe.svg'></img>
-            <h1>My Travel Journal</h1>
+            <FontAwesomeIcon className='navbar__icon' icon={solid('earth-americas')} />
+            <h1>my travel journal</h1>
         </nav>
     )
 }

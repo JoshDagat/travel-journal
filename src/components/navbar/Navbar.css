@@ -1,0 +1,21 @@
+.navbar {
+    min-height: 55px;
+    background-color: #F55A5A;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__icon {
+    font-size: 24px;
+    margin-right: 7px;
+}
+
+.navbar h1 {
+    font-size: 14.5px;
+    font-weight: 500;
+    line-height: 17.5px;
+    letter-spacing: -0.075em;
+}
