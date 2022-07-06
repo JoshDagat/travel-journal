@@ -1,0 +1,21 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter';
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, 550px) 1fr;
+}
+
+.app__main-content {
+    grid-column: 2/3;
+    grid-row: 2/2;
+}
